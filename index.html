@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Spin The Wheel</title>
+</head>
+<body>
+    <h1 id="head">Spin The Wheel</h1>
+    <div id="configForm">
+        <label for="partitionCount">Number of Partitions (4-10):</label>
+        <input type="number" id="partitionCount" min="4" max="10" value="4">
+        <button id="configure">OK</button>
+    </div>
+
+    <div id="wheelContainer" style="display: none;">
+        <button id="spin">Spin</button>
+        <span class="arrow"></span>
+        <div class="container"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <audio  id="audio" src="./assets/audio.mp3"></audio>
+</body>
+</html>
