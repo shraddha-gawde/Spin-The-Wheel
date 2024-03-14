@@ -98,7 +98,16 @@ body{
 #head{
 	position: relative;
 	top: -20%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 45px;
+	color: #df7598;
 }
+#head::first-letter{
+	color: #e91e63;
+	font-size: 64px;
+	/* font-weight: 900; */
+}
+
 #spin{
 	position: absolute;
 	top:50%;
@@ -142,7 +151,6 @@ label {
 }
 
 input[type="number"] {
-	/* margin-left: 30px; */
     width: 70px;
 	height:70px;
     padding: 5px;
@@ -157,11 +165,6 @@ input[type="number"] {
 }
 
 #configure {
-    /* position: absolute; */
-	/* top:50%; */
-	/* left:50%; */
-	/* transform:translate(-50%,-50%); 	 */
-	/* z-index:10; */
 	background-color: #e2e2e2;
 	text-transform: uppercase;
 	border:8px solid #fff;
@@ -172,7 +175,6 @@ input[type="number"] {
 	height:70px;
 	font-family: sans-serif;
 	border-radius:50%;
-	/* padding: ; */
 	cursor: pointer;
 	outline:none;
 	letter-spacing: 1px;
